@@ -18,4 +18,8 @@ describe('FizzBuzz', () => {
   it('should return `number` when the number is non-divisible.', () => {
     expect(FizzBuzz(92)).to.be.equal(92);
   });
+
+  it('should return `0` when the number is zero.', () => {
+    expect(FizzBuzz(0)).to.be.equal(0);
+  });
 });
